@@ -31,5 +31,18 @@ research driving ages for various countries and create a lookup table for the dr
 Prompt for the age, and display which countries the user can legally drive in.
 */
 
+import java.util.Scanner;
+
 public class App {
+    public static void main(String[] args) {
+
+        int currentAge;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("What is your age? ");
+        currentAge = sc.nextInt();
+
+        String result = currentAge >= 16? "You are old enough to legally drive." : "You are not old enough to legally drive.";
+        System.out.println(result);
+    }
 }
