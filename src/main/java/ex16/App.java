@@ -1,6 +1,10 @@
 package ex16;
 
 /*
+
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Jeyler Zabala
+
 Exercise 16 - Legal Driving Age
 You can test for equality,
 but you may need to test to see how a number compares to a known value
